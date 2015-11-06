@@ -3,10 +3,4 @@
 	"EngineAssociation": "4.9",
 	"Category": "",
 	"Description": "",
-	"Plugins": [
-		{
-			"Name": "SkookumScript",
-			"Enabled": false
-		}
-	]
 }
