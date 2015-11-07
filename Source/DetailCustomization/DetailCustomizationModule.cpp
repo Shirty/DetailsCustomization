@@ -1,4 +1,4 @@
-#include "EngineMinimal.h"
+#include "DetailCustomization.h"
 
 class FDetailCustomizationModule : public FDefaultGameModuleImpl
 {
