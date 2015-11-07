@@ -23,13 +23,14 @@ struct FExampleStruct
 	float Var4;
 };
 
-UCLASS()
+UCLASS(Blueprintable)
 class DETAILCUSTOMIZATION_API UExample : public UObject
 {
 	GENERATED_BODY()
 
 	UExample();
 
+	// We will try and display this in a nice readable way
 	UPROPERTY(EditDefaultsOnly)
 	TMap<FName, FExampleStruct> ExampleMap;
 };
