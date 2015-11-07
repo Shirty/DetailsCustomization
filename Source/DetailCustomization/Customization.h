@@ -10,4 +10,6 @@ public:
 	{
 		return MakeShareable(new FExampleCustomization());
 	}
+
+	TArray<TWeakObjectPtr<UObject>> Objects;
 };

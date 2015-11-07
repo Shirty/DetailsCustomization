@@ -13,6 +13,9 @@ public class DetailCustomization : ModuleRules
 				"EditorStyle",
 				"Engine",
 				"PropertyEditor",
+                "AssetRegistry",
+                "SlateCore",
+                "Slate"
             }
         );
 	}

@@ -28,9 +28,10 @@ class DETAILCUSTOMIZATION_API UExample : public UObject
 {
 	GENERATED_BODY()
 
+public:
 	UExample();
 
 	// We will try and display this in a nice readable way
-	UPROPERTY(EditDefaultsOnly)
+	// If we mark this as a uproperty it will come out ugly
 	TMap<FName, FExampleStruct> ExampleMap;
 };
