@@ -3,6 +3,11 @@
 	"EngineAssociation": "4.9",
 	"Category": "",
 	"Description": "",
-	"Plugins": [
+	"Modules": [
+		{
+			"Name": "DetailCustomization",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
 	]
 }
