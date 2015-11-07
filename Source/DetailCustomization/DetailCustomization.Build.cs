@@ -6,6 +6,14 @@ public class DetailCustomization : ModuleRules
 {
 	public DetailCustomization(TargetInfo Target)
 	{
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(
+            new string[] {
+				"Core",
+				"CoreUObject",
+				"EditorStyle",
+				"Engine",
+				"PropertyEditor",
+            }
+        );
 	}
 }

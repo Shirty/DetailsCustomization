@@ -2,7 +2,6 @@
 
 #include "DetailCustomization.h"
 #include "RandomStream.h"
-#include "Example.h"
 
 UExample::UExample()
 {
